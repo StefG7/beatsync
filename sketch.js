@@ -132,7 +132,7 @@ function draw() {
     push()
       translate(0,0,100)
       scale(0.3)
-      image(play,(windowWidth*1.4),(-windowHeight*1.3))
+      image(play,(windowWidth*1.2),(-windowHeight*1.3))
     pop()
     spin = 5;
   } else {
@@ -146,7 +146,7 @@ function draw() {
       text('Tap again to pause the current song.',windowWidth/6,(windowHeight/6)+20)
       translate(0,0,100)
       scale(0.3)
-      image(pause,(windowWidth*1.4),(-windowHeight*1.3))
+      image(pause,(windowWidth*1.2),(-windowHeight*1.3))
     pop()
     big = 100
     diam = 50
