@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+/*   background-image: url(https://wallpaperaccess.com/full/508929.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
