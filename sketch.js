@@ -128,7 +128,8 @@ function draw() {
     diam = animate_radius()[1]*2
     boxSz = animate_radius()[2]*150
     boxMove = animate_radius()[3]*200
-    text('PLEASE pause the current song before choosing another song from the dropdown.',100,(windowHeight/2)-100)
+    text('PLEASE pause the current song before choosing another song from the 1st dropdown.',100,(windowHeight/2)-100)
+    text('You can change the 3D scene in the 2nd dropdown.',100,(windowHeight/2)-80)
     push()
       translate(0,0,100)
       scale(0.3)
