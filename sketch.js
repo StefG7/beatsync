@@ -23,7 +23,7 @@ function preload() {
   // songs & other
   song1 = loadSound('songs/myuniverse.mp3')
   song2 = loadSound('songs/cpr.mp3')
-  song3 = loadSound('songs/slowdownturbo.wav')
+  song3 = loadSound('songs/slowdownturbo.mp3')
   song4 = loadSound('songs/canyoufeelmyheart.mp3')
   song5 = loadSound('songs/mcr.mp3')
   song6 = loadSound('songs/kissme_neon.mp3')
