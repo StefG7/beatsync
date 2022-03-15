@@ -437,7 +437,7 @@ function canvasPressed() {
   if(!playToggle){
     //mainsong.loop(0,1,0.3)
     mainsong.play()
-    mainsong.setVolume(0.5)
+    mainsong.setVolume(0.3)
   }
   else{
     mainsong.pause()
