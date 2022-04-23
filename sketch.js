@@ -1,5 +1,5 @@
 //global variables
-let scene = 1;
+let scene = 2;
 let cnv,amp,song1,song2,song3,song4,song5,song6,sun,font;
 let planet,sat,satimg,star,sides,hue,sel,sel2,mainsong;
 let skull,gas,mountain,linePattern,vaporwave,vaporwave1;
@@ -77,7 +77,7 @@ function setup() {
   sel2.position(300,100)
   sel2.option('Vaporwave')
   sel2.option('Space')
-  sel2.selected('Vaporwave')
+  sel2.selected('Space')
   sel2.changed(mySelectEvent2);
   // sound devices
   amp = new p5.Amplitude()
